@@ -57,6 +57,20 @@
   nav ul.active {
     left: 0;
   }
+  #home img{
+    width: 40%;
+  }
+  input[type="button"] {
+    background-color: #000000;
+    color: #eee;
+    padding: 15px 25px;
+    border: none;
+  }
+  
+  input[type="button"]:hover {
+     background-color: #eee;
+     color: #000000;
+  }
   @media only screen and (max-width: 991px) {
     html {
       font-size: 56.25%;
@@ -65,7 +79,10 @@
       padding: 2.2rem 5rem;
     }
     nav ul a {
-        color: #ffff;
+        color: #000000;
+      }
+    #home img{
+        width: 100%;
       }
   }
   @media only screen and (max-width: 767px) {
@@ -97,6 +114,9 @@
     nav ul a {
         color: #ffff;
       }
+    #home img{
+        width: 100%;
+      }
   }
   @media only screen and (max-width: 575px) {
     html {
@@ -112,4 +132,7 @@
     nav ul a {
         color: #ffff;
       }
+    #home img{
+      width: 100%;
+    }
   }
