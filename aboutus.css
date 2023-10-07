@@ -16,11 +16,13 @@ header {
   width: 100%;
   opacity: 1;
   padding: 3rem 5rem;
+  background-color:white;
 }
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color:white;
 }
 nav ul {
   list-style: none;
@@ -93,6 +95,69 @@ input[type="button"]:hover {
   font-family: 'Open Sans',sans-serif;
   font-weight:lighter;
 }
+.num2{
+  display: flex;
+  flex-direction: row;
+
+  background-color: #eee;
+  padding: 20px 0px 50px;
+}
+.num2 .writing2{
+  width: 60%;
+}
+.num2 .writing2 .heading{
+  font-size: 40px;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 400;
+  padding: 20px 20px 20px;
+  color: rgb(0, 45, 71);
+}
+.num2 .writing2 .para, .num2 .writing2 .para2{
+  font-size: 20px;
+  font-family: 'Open Sans',sans-serif;
+  font-weight:lighter;
+  padding: 20px 20px 20px;
+}
+.num2 .writing2 .para2{
+  color: rgb(0, 45, 71);
+  padding: 10px 20px 10px;
+}
+.num2 .image1{
+  background-image: url(https://www.ewlabs.co.za/images/Phaldie-1.gif);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.num3 {
+  display: flex;
+  flex-direction: row;
+}
+.num .writing3{
+  width: 40%;
+  background-color: #db545a;
+  justify-content: end; 
+}
+.num3 .img2{
+  background-image: url(https://www.ewlabs.co.za/images/Machinery-4.gif);
+  background-repeat: no-repeat;
+  background-size:cover ;
+  width: 60%;
+  justify-content: start; 
+}
+.num3 .writing3 .heading{
+  font-size: 40px;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 400;
+  padding: 20px 20px 20px;
+  color: rgb(0, 45, 71); 
+  justify-self: end;
+}
+.num3 .writing3 .para{
+  font-size: 20px;
+  font-family: 'Open Sans',sans-serif;
+  font-weight:lighter;
+  padding: 20px 20px 20px;
+}
 @media only screen and (max-width: 991px) {
   html {
     font-size: 56.25%;
@@ -161,4 +226,18 @@ input[type="button"]:hover {
     background-color: #db545a;
     width: 35%;
   }
+  .num2{
+    flex-direction: column;
+  }
+  .num2 .writing2{
+    width: 100%;
+  }
+  .num2 .writing2 .heading{
+    font-size: 30px;
+  }
+  .num2 .image1{
+    height: 600px;
+    width: 100%;
+  }
+
 }
