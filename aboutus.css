@@ -132,31 +132,61 @@ input[type="button"]:hover {
   display: flex;
   flex-direction: row;
 }
-.num .writing3{
-  width: 40%;
-  background-color: #db545a;
-  justify-content: end; 
-}
 .num3 .img2{
   background-image: url(https://www.ewlabs.co.za/images/Machinery-4.gif);
   background-repeat: no-repeat;
-  background-size:cover ;
+  background-size:cover;
+  width: 40%;
+  justify-content: start;
+}
+.num3 .writing3{
   width: 60%;
-  justify-content: start; 
+  background-color: #db545a;
+  justify-content: right; 
 }
 .num3 .writing3 .heading{
-  font-size: 40px;
+  font-size: 50px;
   font-family: 'Open Sans',sans-serif;
   font-weight: 400;
   padding: 20px 20px 20px;
-  color: rgb(0, 45, 71); 
-  justify-self: end;
+  color: rgb(255, 255, 255); 
+  justify-content: end; 
 }
 .num3 .writing3 .para{
   font-size: 20px;
   font-family: 'Open Sans',sans-serif;
   font-weight:lighter;
   padding: 20px 20px 20px;
+  justify-content: end; 
+  color: rgb(255, 255, 255);
+}
+.num4{
+  display: flex;
+  flex-direction: row;
+  background-color: #eee;
+  padding: 20px 0px 50px;
+}
+.num4 .writing4{
+  width: 60%;
+}
+.num4 .writing4 .heading{
+  font-size: 40px;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 400;
+  padding: 20px 20px 20px;
+  color: rgb(0, 45, 71);
+}
+.num4 .writing4 .para{
+  font-size: 20px;
+  font-family: 'Open Sans',sans-serif;
+  font-weight:lighter;
+  padding: 20px 20px 20px;
+}
+.num4 .img3{
+  background-image: url(https://www.ewlabs.co.za/images/Machinery-1.gif);
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size:contain;
 }
 @media only screen and (max-width: 991px) {
   html {
@@ -239,5 +269,30 @@ input[type="button"]:hover {
     height: 600px;
     width: 100%;
   }
-
+  .num3 {
+    flex-direction: column-reverse;
+  }
+  .num3 .img2{
+    width: 100%;
+    height: 400px;
+  }
+  .num3 .writing3{
+    width: 100%;
+  }
+  .num3 .writing3 .heading{
+    font-size: 30px;
+  }
+  .num4{
+    flex-direction: column;
+  }
+  .num4 .writing4{
+    width: 100%;
+  }
+  .num4 .writing4 .heading{
+    font-size: 30px;
+  }
+  .num4 .img3{
+    height: 600px;
+    width: 100%;
+  }
 }
