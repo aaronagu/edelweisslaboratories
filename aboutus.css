@@ -202,7 +202,7 @@ input[type="button"]:hover {
       width: 100%;
     }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   html {
     font-size: 50%;
   }
@@ -232,6 +232,45 @@ input[type="button"]:hover {
       color: #ffff;
     }
   #home img{
+      width: 100%;
+    }
+    .num2{
+      flex-direction: column;
+    }
+    .num2 .writing2{
+      width: 100%;
+    }
+    .num2 .writing2 .heading{
+      font-size: 30px;
+    }
+    .num2 .image1{
+      height: 600px;
+      width: 100%;
+    }
+    .num3 {
+      flex-direction: column-reverse;
+    }
+    .num3 .img2{
+      width: 100%;
+      height: 400px;
+    }
+    .num3 .writing3{
+      width: 100%;
+    }
+    .num3 .writing3 .heading{
+      font-size: 30px;
+    }
+    .num4{
+      flex-direction: column;
+    }
+    .num4 .writing4{
+      width: 100%;
+    }
+    .num4 .writing4 .heading{
+      font-size: 30px;
+    }
+    .num4 .img3{
+      height: 300px;
       width: 100%;
     }
 }
@@ -292,7 +331,7 @@ input[type="button"]:hover {
     font-size: 30px;
   }
   .num4 .img3{
-    height: 600px;
+    height: 300px;
     width: 100%;
   }
 }
